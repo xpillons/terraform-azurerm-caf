@@ -18,4 +18,8 @@ module "caf" {
     application_gateways              = var.application_gateways
     application_gateway_applications  = var.application_gateway_applications
   }
+  webapp = {
+    app_service_plans = var.app_service_plans
+    app_services      = var.app_services
+  }
 }
