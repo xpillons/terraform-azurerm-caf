@@ -33,9 +33,9 @@ netapp_accounts = {
             # Must be unique to the subscription
             volume_path = "path"
             vnet_key    = "vnet_region1"
-            subnet_key  = "example"
+            subnet_key  = "netapp"
             # Default is NFSv3
-            protocols   = ["CIFS, NFSv3, NFSv4.1"]
+            protocols   = ["NFSv3"]#["CIFS", "NFSv3", "NFSv4.1"]
             # Minimum 100
             storage_quota_in_gb = "100"
             # To be defined
